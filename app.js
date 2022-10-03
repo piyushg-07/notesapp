@@ -18,6 +18,13 @@ addBtn.addEventListener("click", function(e) {
   showNotes();
 });
 
+function copy(){
+  console.log("copy");
+  let addTxt = document.getElementById("addTxt");
+  navigator.clipboard.writeText(addTxt.value);
+  alert("copied");
+}
+
 // Function to show elements from localStorage
 function showNotes() {
   let notes = localStorage.getItem("notes");
