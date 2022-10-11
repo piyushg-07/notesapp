@@ -25,15 +25,6 @@ function copy(){
   alert("copied");
 }
 
-//text clear button
-
-function eraseText() {
-  console.log("text cleared");
-  document.getElementById("addTxt").value = "";
-  alert("text cleared");
-}
-
-
 // Function to show elements from localStorage
 function showNotes() {
   let notes = localStorage.getItem("notes");
