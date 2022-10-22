@@ -16,8 +16,12 @@
         background-image: url("https://wallpaperaccess.com/full/1625487.jpg");
         color: white;
       }
-      .card-title {
+      .noteCard, .card-title {
         color: black;
+      }
+
+      hr {
+        background : #f7f7f781;
       }
 
       .contribution {
@@ -29,13 +33,15 @@
       }
       .navbar-brand {
         box-sizing: border-box;
-        border: #fff solid;
-        border-radius: 2%;
-        padding: 5px;
+        /* border: #fff solid; */
+        border-radius: 4px;
+        padding: 3px 11px;
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
       }
       .navbar-brand:hover {
-        background-color: rgba(0, 0, 255, 0.272);
-        border: rgba(0, 0, 255, 0.236) solid;
+        background-color: rgb(230, 228, 228);
+        color: #161616 !important; 
+        /* border: rgba(0, 0, 255, 0.236) solid; */
       }
     </style>
   </head>
@@ -54,12 +60,12 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="btn-grp">
+      <!-- <div class="btn-grp">
         <a href="#" class="contribution">link1</a>
         <a href="#" class="contribution">ling2</a>
         <a href="#" class="contribution">link3</a>
         <a href="#" class="contribution">link4</a>
-      </div>
+      </div> -->
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
